@@ -1,4 +1,4 @@
-## Open Source Callisto (CLO) Mining Pool
+## Open Source ETH Mining Pool
 
 ![Main page of open-callisto-pool](https://raw.githubusercontent.com/ethpool-update-project/open-callisto-pool/master/misc/pool.PNG)
 
@@ -7,7 +7,6 @@
 
 ### Features  
 
-**This pool is being further developed to provide an easy to use pool for Callisto miners. Testing and bug submissions are welcome!**
 
 * Support for HTTP and Stratum mining
 * Detailed block stats with luck percentage and full reward
@@ -472,19 +471,4 @@ Now you can access your pool's frontend via https! Share your pool link!
 * If `poolFeeAddress` is not specified all pool profit will remain on coinbase address. If it specified, make sure to periodically send some dust back required for payments.
 * DO NOT OPEN YOUR RPC OR REDIS ON 0.0.0.0!!! It will eventually cause coin theft.
 
-### Credits
 
-Made by sammy007. Licensed under GPLv3.
-Modified by Akira Takizawa & The Ellaism Project.
-
-#### Contributors
-
-[Alex Leverington](https://github.com/subtly)
-
-### Donations
-
-ETH/ETC/ETSC/CLO: 0x34AE12692BD4567A27e3E86411b58Ea6954BA773
-
-![](https://cdn.pbrd.co/images/GP5tI1D.png)
-
-Highly appreciated.
