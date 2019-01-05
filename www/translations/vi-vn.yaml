@@ -1,145 +1,145 @@
 general:
   direction: ltr
 calculator:
-  title: Bạn sẽ kiếm được bao nhiêu?
-  close: Thoát
+  title: ¿Cuánto vas a ganar?
+  close: Cierra la puerta detras
 menu:
-  home: Tramg chủ
-  help: Trợ giúp
-  calculator: Lợi nhuận ước tính
-  pool_blocks: Khối
-  payments: Thanh toán
-  miners: Thợ mỏ
-  about: Giới thiệu
+  home: Inicio
+  help: Ayuda
+  calculator: Calculadora
+  pool_blocks: Bloques
+  payments: Pagos
+  miners: Mineros
+  about: Acerca de
   i18n:
-    about: about
-    help: help
-  language: ngôn ngữ
+    about: acerca de
+    help: ayuda
+  language: lenguaje
 
 lang:
-  vietnamese: tiếng Việt
+  vietnamese: Español
   arabic: ﻉﺮﺒﻳ
   english: English
 
 home:
-  min_payout_threshold: Ngưỡng thanh toán nhỏ nhất
-  payouts_run: mỗi {interval}.
-  payout_scheme_detail: Kế hoạch thanh toán theo thời gian thực PPLNS.
-  miners_online: Các thợ mỏ đang trực tuyến
-  pool_hashrate: Tốc độ của hố đào
-  pool_fee: Pool Phí
-  last_block_found: Khối vừa được tìm thấy
-  network_difficulty: Độ khó của mạng lưới
-  network_hashrate: Tộc độ của mạng lưới
-  blockchain_height: Độ giãn nở của chuỗi khối
-  current_round_variance: Phương sai hiện tại
-  query_history: Thống kê và Lịch sử thanh toán của bạn
+  min_payout_threshold: Min. umbral de pago
+  payouts_run: cada {interval}.
+  payout_scheme_detail: Esquema de pago PPLNS en tiempo real.
+  miners_online: Mineros en linea
+  pool_hashrate: Pool Hashrate
+  pool_fee: Pool Fee
+  last_block_found: Último bloque encontrado
+  network_difficulty: Dificultad de red
+  network_hashrate: Tasa de hash de red
+  blockchain_height: Altura de Blockchain
+  current_round_variance: Variación de ronda actual
+  query_history: Sus estadísticas e historial de pagos
   input:
-    enter_your_wallet_address: Nhập ví của bạn vào
+    enter_your_wallet_address: Ingrese su dirección de billetera
   button:
-    lookup: Tìm kiếm
+    lookup: Buscar
   help:
-    minimal: Tối giản
+    minimal: Ayuda mínima
   settings:
-    difficulty: (độ khó {diff} tỷ)
-    help: Bấm vào để yêu cầu trợ giúp
-    title: Thợ đào {hashes} MH/s
-    stratum_mining: Khu vực khai thác
+    difficulty: (Dificultad {diff} billones)
+    help: CLICK PARA AYUDA
+    title: Minero {hashes} MH/s
+    stratum_mining: Mineria de estrato
     commands:
       windows: Windows
-      smos: Đào kiểu đơn giản
-      windows_instruction: Thêm cái này vào file bat của bạn
-      smos_instruction: Thêm cái này vào trong nhóm máy đào mới của bạn
+      smos: SimpleMining
+      windows_instruction: Agrega esto a tu archivo bat
+      smos_instruction: Agregue esto a su nuevo Grupo Rig
 
 account:
   immature:
-    balance: Số dư chưa xác nhận
-    description: Số dư đang đợi xác nhận bởi khối.
+    balance: Balance inmaduro
+    description: Balance preliminar a la espera de bloques para madurar.
   pending:
-    balance: Số dư đang đợi xác nhận
-    description: Số coin đang đợi để thanh toán.
-  current: Thanh toán hiện tại
-  last_share_submitted: Lượt share mới nhất
-  online: Các thợ mỏ đang trực tuyến
-  hashrate: Tốc độ
+    balance: Balance pendiente
+    description: Monedas acreditadas en espera de pago.
+  current: Pago actual
+  last_share_submitted: Último Trabajo Enviado
+  online: Trabajadores en linea
+  hashrate: Hashrate
   earnings:
-    miner: Lợi nhuận trong 1 ngày (trung bình 3 giờ)
-    worker: Lợi nhuận / ngày (trung bình)
+    miner: Ganancias por día (3h avg)
+    worker: Ganancias / día (avg corto)
   blocks:
-    found: Các khối đã tìm thấy
+    found: Bloques encontrados
   total:
-    payments: Tổng các thanh toán
-    paid: Đã được thanh toán
-  round_share: Số vòng share của bạn
-  round_share_description: Phần trăm cổ phần trong vòng share hiện tại.
-  epoch_switch: Chuyển Epoch
-  workers: Thợ mỏ
-  payouts: Thanh toán
+    payments: Pagos totales
+    paid: Total pagado
+  round_share: Tu Ronda
+  round_share_description: Porcentaje de su contribución a la ronda actual.
+  epoch_switch: Epoch Switch
+  workers: Trabajadores
+  payouts: Pagos
 
-  your_workers: Thợ mỏ
-  server: Máy chủ
-  difficulty: Độ khó
-  last_share: Lần cuối nhìn thấy
-  short_average: gần đúng, thời gian ngắn
-  short_average_abbrv: 30 phút
-  long_average: chính xác, thời gian dài
-  long_average_abbrv: 3 giờ
-  no_workers_online: Không có thợ mỏ nào đang trực tuyến
-  notice: Chú ý
-  notice_html: Tỷ lệ băm trung bình của bạn sẽ được điều chỉnh khéo léo cho đến khi bạn có phần chia sẻ để thực hiện cửa sổ ước tính.<br/>Có 2 cửa sổ, dài và ngắn, cái đầu tiên. tương ứng với thời gian 30 phút, còn cửa sổ dài tương ứng với thời gian là 3 giờ.<br/>Các thợ mỏ bị treo (hỏng) sẽ được làm sáng lên trong bảng nếu như chúng không đóng góp chia sẻ tương ứng với 1/2 của cửa sổ ngắn, vì thế bạn có thể thực hiện bảo trì giàn đào của mình một cách tốt nhất.
-  json_api_url: URL API JSON thống kê hàng loạt của bạn
+  your_workers: Trabajadores
+  server: Servidor
+  difficulty: Dificultad
+  last_share: Ultimo Enviado
+  short_average: Calculo, Promedio corto
+  short_average_abbrv: 30m
+  long_average: Preciso, Promedio largo
+  long_average_abbrv: 3h
+  no_workers_online: No hay trabajadores en línea
+  notice: Notado
+  notice_html: Su promedio de hashate se ajustará suavemente hasta que tenga una ventana de estimación de acciones para completar. <br/> Hay dos ventanas, larga y corta, la primera es aproximadamente 30 minutos y la ventana larga generalmente es igual a 3 horas. <br/> Los trabajadores muertos (offline) se destacarán en una tabla de trabajadores si no enviaron una parte de la mitad de la ventana corta, para que pueda realizar el mantenimiento de sus equipos.
+  json_api_url: Sus estadísticas masivas JSON API URL
 
 payout:
-  latest_payouts: Thanh toán mới nhất của bạn
-  time: Thời gian
+  latest_payouts: Sus últimos pagos
+  time: Tiempo
   txid: Tx ID
-  amount: Số lượng
-  no_payouts_yet: Chưa được thanh toán
+  amount: Monto
+  no_payouts_yet: No hay pagos todavía
 
 block:
-  pool_rewards: Hố đào luôn trả tiền thưởng khối đầy đủ bao gồm cả phí TX và phần thưởng uncle.
+  pool_rewards: El pool siempre paga la recompensa de bloque completo, incluidas las tarifas de TX y las recompensas del tío.
   pool_notice:
-    html: Khối trưởng thành yêu cầu <em style="text-decoration:underline">up to</em> <span class="label label-success">{success}</span> khối. Thường sẽ ít hơn.
-  blocks: Khối
-  immature: Chưa trưởng thành
-  new: Khối mới
-  orphan: Mồ côi
-  no_matured_blocks_yet: Chưa có khối trưởng thành nào
-  reward: Phần thưởng
-  height: Độ giãn nở
-  hash: Tốc độ
-  time_found: Thời gian tìm được
-  variance: Phương sai chia sẻ (Shares/Diff)
-  matured: Khối đã trưởng thành
-  immature_blocks: Khối chưa trưởng thành
-  no_immature_blocks_yet: Không có khối chưa trưởng thành nào
-  no_new_blocks_yet: Chưa có khối mới
-  recently_found_blocks: Khối vừa được tìm thấy
+    html: La madurez del bloque requiere <em style="text-decoration:underline"> hasta </em> <span class="label label-success">{success}</span> bloques. Por lo general es menos.
+  blocks: Bloques
+  immature: Inmaduro
+  new: Nuevos Bloques
+  orphan: Huérfanos
+  no_matured_blocks_yet: Aún no hay bloques maduros.
+  reward: Recompensa
+  height: Altura
+  hash: Altura
+  time_found: Tiempo encontrado
+  variance: Variación de la acción (Acciones/Diff)
+  matured: Bloques Maduros
+  immature_blocks: Bloques Inmaduros
+  no_immature_blocks_yet: Aún no hay bloques inmaduros
+  no_new_blocks_yet: No hay bloques nuevos todavía
+  recently_found_blocks: Bloques Encontrados Recientemente
 
 luck:
-  blocks: Khối
+  blocks: Bloques
   shares_diff: Shares/Diff
-  uncle_rate: Uncle Rate (tỷ lệ may mắn)
-  orphan_rate: Orphan Rate (tỷ lệ kém may)
+  uncle_rate: Tios Rate
+  orphan_rate: Huérfanos Rate 
 
 payments:
-  pay_tx: Hố đào luôn trả phí tx từ túi riêng của nó từ bây giờ.
-  total_payments_sent: Tất cả các thanh toán đã gửi
-  latest_payouts: Đợt thanh toán mới nhất
-  time: Thời gian
-  amount: Số lượng
-  address: Địa chỉ
+  pay_tx: Pool siempre paga las tarifas de tx de su propio bolsillo por ahora
+  total_payments_sent: Total de pagos enviados
+  latest_payouts: Últimos Pagos
+  time: Tiempo
+  amount: Monto
+  address: Dirección
   txid: Tx ID
-  no_payouts_yet: Chưa được thanh toán
+  no_payouts_yet: No hay pagos todavía
 
 miners:
-  total_hashrate: Tổng tốc độ của hố đào
-  total_miners: Tất cả thợ mỏ
-  login: Đăng nhập
-  hashrate: Tốc độ
-  last_beat: Lần đào được gần đây nhất
-  no_miners: Không có thợ mỏ nào
-  miners: Thợ mỏ
+  total_hashrate: Hashrate Total del Pool
+  total_miners: Mineros totales
+  login: Iniciar Sesión
+  hashrate: Hashrate
+  last_beat: Último tiempo
+  no_miners: No hay mineros
+  miners: Mineros
 
 wallet:
   dapp_html: <a href=""></a>
@@ -147,8 +147,8 @@ wallet:
 
 errors:
   header: Stats API Temporarily Down
-  message: Usually it's just a temporal issue and mining is not affected.
-
+  message: Usualmente es solo un problema temporal y la minería no se ve afectada.
+  
 links:
   blockExplorerLink: 'https://explorer.amoeba.pro/'
   blockExplorerLink_tx: 'https://explorer.amoeba.pro/tx/'
